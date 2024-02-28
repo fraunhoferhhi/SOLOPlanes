@@ -2,6 +2,12 @@
 
 This is the official implementation of [Multi-task Planar Reconstruction with Feature Warping Guidance](https://arxiv.org/abs/2311.14981).
 
+
+| *Base Model* | *Feature warping* |
+| ---- | ---- |
+|     ![model](figures/soloplanes.png)    |     ![mv](figures/featwarping.png)    |
+
+
 ## Dataset
 Download the [ScanNet](http://www.scan-net.org/ScanNet/) dataset and follow instructions to extract sens data for RGB, depth, and camera parameters. 
 
@@ -27,20 +33,18 @@ pip install -r requirements.txt
 ```
 
 ## Training
-Download pretrained backbones [here](url) and put in `pretrained/` folder
+Download resnet-50 pretrained backbone [here](https://datacloud.hhi.fraunhofer.de/s/KSrM2Nai35gtDP4) and put in `pretrained/` folder
 
 Edit config files with correct dataroot and settings
 
 `python train_local.py`
 
 ## Evaluation
-Download the desired pretrained model [here](url) 
+Download our pretrained model [here](https://datacloud.hhi.fraunhofer.de/s/qnYX3b7tzGEdR4e) 
 
 Update the corresponding config file model.path
 
 `python eval_models.py` 
-
-
 
 
 
