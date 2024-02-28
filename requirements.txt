@@ -1,0 +1,11 @@
+opencv-python
+matplotlib
+cupy-cuda12x
+dotmap
+scipy
+scikit-image
+pytorch-lightning
+tensorboard
+open3d
+kornia
+torchvision
