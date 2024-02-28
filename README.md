@@ -1,11 +1,12 @@
 # SOLOPlanes
 
-This is the official implementation of [Multi-task Planar Reconstruction with Feature Warping Guidance](https://arxiv.org/abs/2311.14981).
+This is the official implementation for [Multi-task Planar Reconstruction with Feature Warping Guidance](https://arxiv.org/abs/2311.14981), published at VISAPP 2024.
 
+![teaser](figures/posterimg.png)
 
 | *Base Model* | *Feature warping* |
 | ---- | ---- |
-|     ![model](figures/soloplanes.png)    |     ![mv](figures/featwarping.png)    |
+|     ![model](figures/soloplanes.png)    |     ![mv warping](figures/featwarping.png)    |
 
 
 ## Dataset
@@ -45,7 +46,6 @@ Download our pretrained model [here](https://datacloud.hhi.fraunhofer.de/s/qnYX3
 Update the corresponding config file model.path
 
 `python eval_models.py` 
-
 
 
 ## Acknowledgement
